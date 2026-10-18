@@ -1,46 +1,59 @@
 # U.S. Medical Insurance Costs
 
-Análise exploratória de 1.338 registros de custos médicos nos Estados Unidos, usando fundamentos de Python para comparar valores por tabagismo, idade e região.
+Exploratory analysis of 1,338 medical cost records in the United States, using basic Python to compare values by smoking status, age, and region.
 
-Projeto de portfólio desenvolvido durante meus estudos no **Codecademy**.
+Portfolio project developed during my studies at **Codecademy**.
 
-## Principais resultados
+## Key Findings
 
-| Indicador | Valor (USD) |
+| Indicator | Value (USD) |
 | --- | ---: |
-| Custo médio geral | 13.270,42 |
-| Custo mediano geral | 9.382,03 |
-| Custo médio de fumantes | 32.050,23 |
-| Custo médio de não fumantes | 8.434,27 |
+| Overall average cost | 13,270.42 |
+| Overall median cost | 9,382.03 |
+| Average cost for smokers | 32,050.23 |
+| Average cost for nonsmokers | 8,434.27 |
 
-Nesta amostra, fumantes apresentam custos médios aproximadamente **3,8 vezes maiores**. As médias e medianas também aumentam entre as faixas etárias analisadas. As comparações descrevem associações e não demonstram causalidade.
+In this sample, smokers have average costs that are approximately **3.8 times higher**. The means and medians also increase across the age groups analyzed. These comparisons describe associations and do not establish causality.
 
-## O que foi feito
+## What Was Done
 
-- Verificação de campos vazios, registros repetidos e categorias.
-- Conversão e organização dos dados em listas e dicionários.
-- Criação de funções para calcular médias e comparar grupos.
-- Comparação de médias e medianas por tabagismo, região e faixa etária.
-- Discussão das limitações dos dados e de possibilidades de análise futura.
+- Checking for empty fields, duplicate records, and categories.
+- Converting and organizing the data into lists and dictionaries.
+- Creation of functions to calculate means and compare groups.
+- Comparison of means and medians by smoking status, region, and age group.
+- Discussion of data limitations and possibilities for future analysis.
 
-## Ferramentas
+## Tools
 
 **Python 3 · Jupyter Notebook · `csv` · `statistics`**
 
-A análise utiliza apenas bibliotecas da biblioteca padrão do Python.
+The analysis uses only libraries from the standard Python library. In this sample, smokers have average costs approximately **3.8 times higher**. The means and medians also increase across the age groups analyzed. The comparisons describe associations and do not demonstrate causality.
 
-## Como explorar
+## What Was Done
 
-1. Abra o [notebook com a análise](us-medical-insurance-costs.ipynb) para consultar o código, os resultados salvos e as conclusões.
-2. Para executar, baixe este repositório e mantenha `insurance.csv` e o notebook na mesma pasta.
-3. Abra o notebook no JupyterLab ou Jupyter Notebook, selecione um ambiente Python 3 e execute as células em ordem.
+- Checking for empty fields, duplicate records, and categories.
+- Converting and organizing the data into lists and dictionaries.
+- Created functions to calculate averages and compare groups.
+- Compared averages and medians by smoking status, region, and age group.
+- Discussed the limitations of the data and possibilities for future analysis.
 
-## Dados e limitações
+## Tools
 
-Fonte: [Medical Cost Personal Datasets — Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance), utilizado no projeto U.S. Medical Insurance Costs do Codecademy.
+**Python 3 · Jupyter Notebook · `csv` · `statistics`**
 
-A amostra contém pessoas de 18 a 64 anos e não deve ser considerada representativa de toda a população. Um registro repetido foi mantido porque não há identificador individual que permita confirmar uma duplicação indevida. O projeto não inclui modelo preditivo.
+The analysis uses only libraries from Python’s standard library.
 
-## Autor
+## How to Explore
 
-Daniel Anspach — estudando Python e análise de dados, com interesse em automação de processos administrativos.
+1. Open the [notebook containing the analysis](us-medical-insurance-costs.ipynb) to view the code, saved results, and conclusions.
+2. To run the code, download this repository and keep `insurance.csv` and the notebook in the same folder.
+3. Open the notebook in JupyterLab or Jupyter Notebook, select a Python 3 environment, and run the cells in order.
+
+## Data and Limitations
+
+Source: [Medical Cost Personal Datasets — Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance), used in Codecademy’s U.S. Medical Insurance Costs project.
+
+The sample includes people aged 18 to 64 and should not be considered representative of the entire population. Duplicate records were retained because there is no individual identifier to confirm whether a record is a duplicate. The project does not include a predictive model.
+
+## Author
+Daniel Anspach 
